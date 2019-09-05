@@ -1843,7 +1843,7 @@ CONFIG_SERIO_LIBPS2=y
 # Character devices
 #
 CONFIG_TTY=y
-# CONFIG_VT is not set
+CONFIG_VT=y
 CONFIG_UNIX98_PTYS=y
 # CONFIG_DEVPTS_MULTIPLE_INSTANCES is not set
 # CONFIG_LEGACY_PTYS is not set
@@ -4494,7 +4494,7 @@ CONFIG_ENCRYPTED_KEYS=y
 #
 # Qualcomm Technologies, Inc Per File Encryption security device drivers
 #
-CONFIG_PFK=y
+# CONFIG_PFK is not set
 # CONFIG_SECURITY_DMESG_RESTRICT is not set
 CONFIG_SECURITY_PERF_EVENTS_RESTRICT=y
 CONFIG_SECURITY=y
